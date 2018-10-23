@@ -13,7 +13,7 @@ class Song
   end
 
   def self.all
-    @@all.compact
+    @@all.name
   end
 
 end
