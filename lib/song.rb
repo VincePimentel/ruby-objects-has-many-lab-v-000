@@ -1,5 +1,5 @@
 class Song
-  attr_accessor :artist, :title
+  attr_accessor :artist, :title, :name
 
   @@all = Array.new
 
