@@ -1,5 +1,5 @@
 class Song
-  attr_accessor :artist, :name, :genre
+  attr_accessor :artist, :name
 
   @@all = Array.new
 
@@ -9,7 +9,11 @@ class Song
   end
 
   def artist_name
-    self.artist.name
+    if self.artist.name == nil
+      return nil
+    else
+      self.artist.name
+    end
   end
 
   def self.all
