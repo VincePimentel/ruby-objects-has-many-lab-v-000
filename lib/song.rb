@@ -13,7 +13,7 @@ class Song
   end
 
   def self.all
-    @@all.name
+    [@@all]
   end
 
 end
