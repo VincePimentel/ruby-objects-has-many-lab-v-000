@@ -3,9 +3,9 @@ class Song
 
   @@all = Array.new
 
-  def initialize(title)
-    @title = title
-    @@all << title if !@@all.include?(title)
+  def initialize(name)
+    @name = name
+    @@all << name if !@@all.include?(name)
   end
 
   def artist_name
