@@ -9,7 +9,7 @@ class Song
   end
 
   def artist_name
-    self.class.name
+    self
   end
 
   def self.all
