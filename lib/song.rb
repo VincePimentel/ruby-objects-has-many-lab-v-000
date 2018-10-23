@@ -5,7 +5,7 @@ class Song
 
   def initialize(name)
     @name = name
-    @@all << name if !@@all.detect?(name)
+    @@all << name if !@@all.include?(name)
   end
 
   def artist_name
