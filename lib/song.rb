@@ -3,13 +3,13 @@ class Song
 
   @@all = Array.new
 
-  def initialize(name)
-    @title = name
-    @@all << name if !@@all.include?(name)
+  def initialize(title)
+    @title = title
+    @@all << title if !@@all.include?(title)
   end
 
   def artist_name
-    !self.artist.name ? nil : self.artist.name
+    self.artist.name == nil
   end
 
 end
