@@ -5,4 +5,8 @@ class Author
     @name = name
     @posts = Array.new
   end
+
+  def add_post(post)
+    post = self.new
+  end
 end
