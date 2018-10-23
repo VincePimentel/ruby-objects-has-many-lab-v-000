@@ -1,10 +1,10 @@
 class Song
-  attr_accessor :artist, :title, :name
+  attr_accessor :artist, :name
 
   @@all = Array.new
 
-  def initialize(title)
-    @title = title
+  def initialize(name)
+    @name = name
     @@all << self
   end
 
